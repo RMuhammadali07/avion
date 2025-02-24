@@ -1,0 +1,44 @@
+.brand {
+    margin-top: 50px;
+    padding: 10px 100px;
+
+    .brand-title {
+        h3{
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 33px;
+            text-align: center;
+        }
+    }
+
+    .brand-container {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        gap: 38px;
+        flex-wrap: wrap;
+
+        .container {
+            width: 300px;
+            background: #F9F9F9;
+            padding: 48px;
+
+            i {
+                font-size: 20px;
+            }
+
+            h4 {
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 28px;
+                margin: 12px 0;
+            }
+
+            p{
+                font-size: 16px;
+                line-height: 24px;
+                font-weight: 400;
+            }
+        }
+    }
+}

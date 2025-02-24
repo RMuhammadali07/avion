@@ -1,0 +1,86 @@
+.footer {
+    background: #2A254B;
+    padding: 50px 100px;
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-weight: 400;
+
+            a {
+                color: white;
+                font-size: 14px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                transition: all .4s ease;
+            }
+
+            .menu, .category, .our-company {
+                font-size: 16px;
+            }
+        }
+
+        p{
+            color: white;
+            font-size: 16px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        .email {
+            display: flex;  
+            flex-direction: column;
+            gap: 10px;
+            
+            label {
+                display: flex;
+                
+                input {
+                    width: 300px;
+                    padding: 15px;
+                    border: none;
+                    outline: none;
+                    background: #ffffff15;
+                    color: #fff;
+                }
+
+                ::placeholder {
+                    color: #fff;
+                }
+                
+                button {
+                    border: none;
+                    padding: 15px 20px;
+                }
+            }
+        }
+    }
+    hr {
+        width: 100%;
+        border: none;
+        height: 1px;
+        background: #4E4D93;
+        margin: 30px 0;
+    }
+    
+    .footer-down {
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+        
+        p{
+            font-size: 14px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            letter-spacing: 1px;
+        }
+
+        .icons {
+            display: flex;
+            gap: 24px;
+            font-size: 20px;
+        }
+    }
+}

@@ -1,0 +1,71 @@
+.club {
+    background: url("/src/assets/club.png");
+    background-size: cover;
+    padding: 10px 100px;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+
+    .club-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        h2 {
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 44px;
+        }
+
+        > p{
+            width: 600px;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27px;
+        }
+
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+
+            p{
+                font-size: 16px;
+                line-height: 24px;
+                display: flex;
+                align-items: center;
+                gap: 3px;
+            }
+        }
+
+        form {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+
+            ::placeholder {
+                color: #2A254B;
+            }
+
+            input {
+                width: 400px;
+                padding: 15px;
+                outline: none;
+                border: none;
+                color: #2A254B;
+            }
+
+            button {
+                padding: 15px;
+                width: 120px;
+                background: #2A254B;
+                color: #fff;
+                border: none;
+                cursor: pointer;
+            }
+        }
+    }
+}

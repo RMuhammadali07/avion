@@ -1,0 +1,58 @@
+
+.header {
+    margin: 10px 100px 0;
+
+    .header-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        font-size: 20px;
+        .search {
+
+            i {
+                position: relative;
+                top: 5px;
+            }
+
+            input {
+                position: absolute;
+                left: 130px;
+                top: 10px;
+                width: 80vw;
+                padding: 10px;
+                outline: none;
+            }
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 400;
+        }
+
+        .cart-login {
+            display: flex;
+            gap: 20px;
+        }
+    }
+
+    hr {
+        margin: 20px 0;
+        border: none;
+        height: 1px;
+        background: #999;
+    }
+
+    .navbar {
+        ul {
+            display: flex;
+            justify-content: center;
+            gap: 35px;
+            list-style: none;
+
+            li a{
+                color: #555;
+            }
+        }
+    }
+}
